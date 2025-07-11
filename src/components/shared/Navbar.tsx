@@ -146,7 +146,7 @@ const Navbar = () => {
               Admission
             </Link>
             <Link
-              href="/result"
+              href="/"
               className="block px-3 py-2 rounded-md text-lime-400 hover:bg-slate-700"
               onClick={() => setIsMenuOpen(false)}
             >
