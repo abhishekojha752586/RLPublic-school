@@ -60,7 +60,7 @@ const Navbar = () => {
                 Admission
               </Link>
               <Link 
-                href="/" 
+                href="/result" 
                 className="text-white hover:text-white/80 transition-colors font-medium disabled:" 
               >
                 Result

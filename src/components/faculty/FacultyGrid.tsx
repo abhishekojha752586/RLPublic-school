@@ -16,20 +16,97 @@ const FacultyGrid = () => {
   
   // Sample faculty data - replace with your actual data
   const facultyMembers: FacultyMember[] = [
-    { id: 1,  name: "T.L Akela",        position: "Headmaster",    image: "/images/faculty/TL_Akela.jpg" },
-    { id: 2,  name: "Ajay Kumar",       position: "Math Teacher",  image: "/images/faculty/Ajay_Kumar.jpg" },
-    { id: 3,  name: "Anil Singh",       position: "English Teacher", image: "/images/faculty/Anil_Singh.jpg" },
-    { id: 4,  name: "Atul Chaudhary",   position: "Art Teacher",   image: "/images/faculty/Atul_Chaudhary.jpg" },
-    { id: 5,  name: "Jannt Bano",       position: "Headmaster",    image: "/images/faculty/Jannt Bano.jpg" },
-    { id: 6,  name: "Jubeda Begam",     position: "Math Teacher",  image: "/images/faculty/Jubeda_Begam.jpg" },
-    { id: 7,  name: "Mamta Patel",      position: "English Teacher", image: "/images/faculty/Mamta_Patel.jpg" },
-    { id: 8,  name: "Nafisha Bano",     position: "Art Teacher",   image: "/images/faculty/Nafisha_bano.jpg" },
-    { id: 9,  name: "Pankaj Kumar",     position: "Art Teacher",   image: "/images/faculty/Pankaj_kumar.jpg" },
-    { id: 10, name: "Priyanshu Sharma", position: "Art Teacher",   image: "/images/faculty/Priyanshu_sharma.jpg" },
-    { id: 11, name: "Rakesh Kumar",     position: "Art Teacher",   image: "/images/faculty/Rakesh_Kumar.jpg" },
-    { id: 12, name: "Ranjita Vishwakarma", position: "Art Teacher", image: "/images/faculty/Ranjita_Vishwakarma.jpg" },
-    { id: 13, name: "Sandeep Kumar",    position: "Art Teacher",   image: "/images/faculty/Sandeep_kumar.jpg" },
-    { id: 14, name: "Virendra Kumar",   position: "Art Teacher",   image: "/images/faculty/Virendra_Kumar.jpg" },
+    {
+      id: 1,
+      name:"TL Akela",
+      position: "Director",
+      image: "/images/faculty/TL_Akela.jpg",
+    },
+    {
+      id: 2,
+      name: "Anup Chaudhary",
+      position: "Principle",
+      image: "/images/faculty/Anup.jpg",
+    },
+    {
+      id: 3,
+      name: "Jannt Bano",
+      position: "English, Science Teacher",
+      image: "/images/faculty/Jannt Bano.jpg",
+    },
+    {
+      id: 4,
+      name: "Ajay Kumar",
+      position: "Hindi Teacher",
+      image: "/images/faculty/Ajay_Kumar.jpg",
+    },
+    {
+      id: 5,
+      name: "Anil Singh",
+      position: "Math, Science Teacher",
+      image: "/images/faculty/Anil_Singh.jpg",
+    },
+    {
+      id: 6,
+      name: "Jubeda Begam",
+      position: "English Teacher",
+      image: "/images/faculty/Jubeda_Begam.jpg",
+    },
+    {
+      id: 7,
+      name: "Atindra Kumar",
+      position: "English Teacher",
+      image: "/images/faculty/Atindra_kumar.jpg",
+    },
+    {
+      id: 8,
+      name: "Mamta Patel",
+      position: "English Teacher",
+      image: "/images/faculty/Mamta_Patel.jpg",
+    },
+    
+    {
+      id: 9,
+      name: "Pankaj Kumar",
+      position: "Math Teacher",
+      image: "/images/faculty/Pankaj_kumar.jpg",
+    },
+    {
+      id: 10,
+      name: "Priyanshu Sharma",
+      position: "English, Social Science Teacher",
+      image: "/images/faculty/Priyanshu_sharma.jpg",
+    },
+    {
+      id: 11,
+      name: "Rakesh Kumar",
+      position: "Computer Teacher",
+      image: "/images/faculty/Rakesh_Kumar.jpg",
+    },
+    {
+      id: 12,
+      name: "Ranjita Vishwakarma",
+      position: "Hindi, Sanskrit Teacher",
+      image: "/images/faculty/Ranjita_Vishwakarma.jpg",
+    },
+    {
+      id: 13,
+      name: "Sandeep Kumar",
+      position: "Science Teacher",
+      image: "/images/faculty/Sandeep_kumar.jpg",
+    },
+    {
+      id: 14,
+      name: "Virendra Kumar",
+      position: "English, Social Science Teacher",
+      image: "/images/faculty/Virendra_Kumar.jpg",
+    },
+    {
+      id: 15,
+      name: "Atul Chaudhary",
+      position: "Computer Teacher",
+      image: "/images/faculty/Atul_Chaudhary.jpg",
+    },
   ];
 
   // Filter faculty members based on search term
