@@ -44,9 +44,9 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Our Address</h3>
                   <p className="text-gray-600">
-                    Near Main Market, Chilbila Bazaar, Prayagraj<br />
-                     Chilbila Bazaar, Prayagraj<br />
-                     Uttar Pradesh - 230403
+                    Near Main Market, Chilbila Bazaar<br />
+                     Manda, Prayagraj<br />
+                     Uttar Pradesh - 212104
                   </p>
                 </div>
               </div>
@@ -57,7 +57,7 @@ export default function ContactPage() {
                   <h3 className="text-xl font-semibold mb-2">Contact Numbers</h3>
                   <p className="text-gray-600">
                     Office: +91 77964 17508<br />
-                    Principal: +91 77964 17508<br />
+                    Principal: +91 9450589446<br />
                     Fax: +91 77964 17508
                   </p>
                 </div>
