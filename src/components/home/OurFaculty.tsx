@@ -16,97 +16,98 @@ const FacultyCarousel = () => {
   const [touchStart, setTouchStart] = useState(0);
   const [touchEnd, setTouchEnd] = useState(0);
 
-  // Sample faculty data - you would replace this with your actual data
+ 
   const facultyMembers: FacultyMember[] = [
     {
       id: 1,
       name:"TL Akela",
-      position: "Headmaster",
+      position: "Director",
       image: "/images/faculty/TL_Akela.jpg",
     },
     {
       id: 2,
-      name: "Atul Chaudhary",
-      position: "Math Teacher",
-      image: "/images/faculty/Atul_Chaudhary.jpg",
+      name: "Anup Chaudhary",
+      position: "Principle",
+      image: "/images/faculty/Anup.jpg",
     },
     {
       id: 3,
       name: "Jannt Bano",
-      position: "English Teacher",
+      position: "English, Science Teacher",
       image: "/images/faculty/Jannt Bano.jpg",
     },
     {
       id: 4,
       name: "Ajay Kumar",
-      position: "Art Teacher",
+      position: "Hindi Teacher",
       image: "/images/faculty/Ajay_Kumar.jpg",
     },
     {
       id: 5,
       name: "Anil Singh",
-      position: "Science Teacher",
+      position: "Math, Science Teacher",
       image: "/images/faculty/Anil_Singh.jpg",
     },
     {
       id: 6,
       name: "Jubeda Begam",
-      position: "History Teacher",
+      position: "English Teacher",
       image: "/images/faculty/Jubeda_Begam.jpg",
     },
     {
       id: 7,
       name: "Atindra Kumar",
-      position: "Physical Education",
+      position: "English Teacher",
       image: "/images/faculty/Atindra_kumar.jpg",
     },
     {
       id: 8,
       name: "Mamta Patel",
-      position: "Computer Science",
+      position: "English Teacher",
       image: "/images/faculty/Mamta_Patel.jpg",
     },
+    
     {
       id: 9,
-      name: "Nafisha Bano",
-      position: "Computer Science",
-      image: "/images/faculty/Nafisha_bano.jpg",
-    },
-    {
-      id: 10,
       name: "Pankaj Kumar",
-      position: "Computer Science",
+      position: "Math Teacher",
       image: "/images/faculty/Pankaj_kumar.jpg",
     },
     {
-      id: 11,
+      id: 10,
       name: "Priyanshu Sharma",
-      position: "Computer Science",
+      position: "English, Social Science Teacher",
       image: "/images/faculty/Priyanshu_sharma.jpg",
     },
     {
-      id: 12,
+      id: 11,
       name: "Rakesh Kumar",
-      position: "Computer Science",
+      position: "Computer Teacher",
       image: "/images/faculty/Rakesh_Kumar.jpg",
     },
     {
-      id: 13,
+      id: 12,
       name: "Ranjita Vishwakarma",
-      position: "Computer Science",
+      position: "Hindi, Sanskrit Teacher",
       image: "/images/faculty/Ranjita_Vishwakarma.jpg",
     },
     {
-      id: 14,
+      id: 13,
       name: "Sandeep Kumar",
-      position: "Computer Science",
+      position: "Science Teacher",
       image: "/images/faculty/Sandeep_kumar.jpg",
     },
     {
-      id: 15,
+      id: 14,
       name: "Virendra Kumar",
-      position: "Computer Science",
+      position: "English, Social Science Teacher",
       image: "/images/faculty/Virendra_Kumar.jpg",
+    },
+    {
+      id: 15,
+      name: "Atul Chaudhary",
+      position: "Computer Teacher",
+      image: "/images/faculty/Atul_Chaudhary.jpg",
     },
     // Add more faculty members as needed
   ];
