@@ -20,7 +20,7 @@ const Footer = () => {
                 className="mr-4"
               />
               <div>
-                <h3 className="text-lime-500 font-bold text-xl">Sri R.L. Chaudhari School</h3>
+                <h3 className="text-lime-500 font-bold text-xl">Shri R.L. Chaudhari School</h3>
                 <h4 className="text-lime-500 font-semibold text-lg">Chilbila, Manda Uttar Pradesh</h4>
               </div>
             </div>
