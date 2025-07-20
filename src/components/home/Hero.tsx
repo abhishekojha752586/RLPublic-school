@@ -21,19 +21,19 @@ const Hero = () => {
       title: "EDUCATION IS A GIFT THAT NO ONE CAN TAKE AWAY",
       description: "ADMISSION FORMS AVAILABLE, CONTACT US FOR MORE DETAILS",
       buttonText: "ABOUT SCHOOL",
-      buttonLink: "/about",
+      buttonLink: "/",
     },
     {
       title: "SHAPING MINDS FOR A BRIGHTER FUTURE",
       description: "JOIN OUR COMMUNITY OF LEARNERS TODAY",
       buttonText: "LEARN MORE",
-      buttonLink: "/learn-more",
+      buttonLink: "/",
     },
     {
       title: "EXCELLENCE IN EDUCATION",
       description: "PROVIDING QUALITY EDUCATION SINCE ESTABLISHMENT",
       buttonText: "OUR PROGRAMS",
-      buttonLink: "/programs",
+      buttonLink: "/",
     },
   ];
 
