@@ -70,7 +70,7 @@ const WelcomeNote = () => {
             {/* School Name - Desktop View (Left aligned) */}
             <div className="hidden md:block mb-6">
               <h1 className="text-4xl lg:text-5xl font-bold text-red-500 drop-shadow-[2px_2px_4px_rgba(255,0,0,0.3)]">
-                ShRI R.L. CHAUDHARY SCHOOL
+                SHRI R.L. CHAUDHARY SCHOOL
               </h1>
             </div>
 
