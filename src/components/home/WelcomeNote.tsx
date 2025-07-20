@@ -96,7 +96,7 @@ const WelcomeNote = () => {
               </button>
               <div className="mt-4 md:mt-0">
                 <p className="text-amber-300 text-2xl font-bold">T L Akela</p>
-                <p className="font-medium text-black">Director, RL Chaudhary School</p>
+                <p className="font-medium text-black">Director, Shri RL Chaudhary School</p>
               </div>
             </div>
           </div>
