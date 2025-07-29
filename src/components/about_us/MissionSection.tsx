@@ -18,7 +18,7 @@ const AboutSection = () => {
     Welcome to
   </h2>
   <h2 className="text-4xl font-bold text-red-500 mb-4">
-    Sri R.L. Chaudhary School
+    Shri R.L. Chaudhary School
   </h2>
   
   {/* Horizontal line separator */}

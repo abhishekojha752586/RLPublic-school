@@ -28,7 +28,7 @@ const Footer = () => {
               <p>Address: Near Main Market, Chilbila, Manda Prayagraj, Uttar Pradesh - 212104</p>
             </div>
             <div>
-              <p>Email: <a href="mailto:info@srlschool.in" className="hover:underline">info@srlschool.in</a></p>
+              <p>Email: <a href="mailto:chaudharyanup406@gmail.com" className="hover:underline">chaudharyanup406@gmail.com</a></p>
             </div>
           </div>
 
@@ -75,37 +75,25 @@ const Footer = () => {
             <p className="mb-4">Have questions or need more information? We’re here to help.</p>
             <p className="mb-2">Phone: <a href="tel:+917796417508" className="hover:underline">+91 77964 17508</a> <br /> 
             <a href="tel:+919450589446" className="hover:underline">+91 9450589446</a> </p>
-            <p className="mb-6">Email: <a href="mailto:info@srlschool.in" className="hover:underline">info@srlschool.in</a></p>
+            <p className="mb-6">Email: <a href="mailto:chaudharyanup406@gmail.com" className="hover:underline">chaudharyanup406@gmail.com</a></p>
             
             <h3 className="text-red-500 font-bold text-xl mb-4">Follow Us</h3>
             <div className="flex space-x-3">
               {/* Facebook */}
-              <Link href="https://facebook.com" className="bg-white rounded-full p-2 w-8 h-8 flex items-center justify-center hover:opacity-80 transition" aria-label="Facebook">
+              <Link href="https://www.facebook.com/groups/232304902393392/?ref=share&mibextid=NSMWBT" className="bg-white rounded-full p-2 w-8 h-8 flex items-center justify-center hover:opacity-80 transition" aria-label="Facebook">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-black" viewBox="0 0 320 512">
                   <path d=".."/>
                 </svg>
               </Link>
 
               {/* Instagram */}
-              <Link href="https://instagram.com" className="bg-white rounded-full p-2 w-8 h-8 flex items-center justify-center hover:opacity-80 transition" aria-label="Instagram">
+              <Link href="https://www.instagram.com/shri_r.l_chaudhary_school/?igsh=MWxoY3A0Njk3eTlmMg%3D%3D#" className="bg-white rounded-full p-2 w-8 h-8 flex items-center justify-center hover:opacity-80 transition" aria-label="Instagram">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-black" viewBox="0 0 448 512">
                   <path d="..."/>
                 </svg>
               </Link>
 
-              {/* Twitter */}
-              <Link href="https://twitter.com" className="bg-white rounded-full p-2 w-8 h-8 flex items-center justify-center hover:opacity-80 transition" aria-label="Twitter">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-black" viewBox="0 0 512 512">
-                  <path d="..."/>
-                </svg>
-              </Link>
-
-              {/* LinkedIn */}
-              <Link href="https://linkedin.com" className="bg-white rounded-full p-2 w-8 h-8 flex items-center justify-center hover:opacity-80 transition" aria-label="LinkedIn">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-black" viewBox="0 0 448 512">
-                  <path d="..."/>
-                </svg>
-              </Link>
+             
             </div>
           </div>
         </div>
