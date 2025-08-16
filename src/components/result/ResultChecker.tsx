@@ -5,12 +5,12 @@ import { Loader2 } from "lucide-react";
 
 interface ResultData {
   name: string;
-  marks: string;
+  class: string;
   pdfUrl: string;
 }
 
 export default function ResultChecker() {
-  const [formData, setFormData] = useState({ name: "", grade: "" });
+  const [formData, setFormData] = useState({ name: "", grade: "", dob: "" });
   const [result, setResult] = useState<ResultData | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -23,7 +23,7 @@ export default function ResultChecker() {
 
     try {
       const response = await fetch(
-        `/api/result?Name=${encodeURIComponent(formData.name)}&Class=${encodeURIComponent(formData.grade)}`
+        `/api/result?Name=${encodeURIComponent(formData.name)}&Class=${encodeURIComponent(formData.grade)}&DOB=${encodeURIComponent(formData.dob)}`
       );
 
       if (!response.ok) {
@@ -55,6 +55,7 @@ export default function ResultChecker() {
         onSubmit={handleSubmit}
         className="bg-white rounded-xl shadow-xl p-8 space-y-6"
       >
+        {/* Name */}
         <div>
           <label className="block text-gray-700 font-medium mb-2">Full Name</label>
           <input
@@ -67,6 +68,7 @@ export default function ResultChecker() {
           />
         </div>
 
+        {/* Class */}
         <div>
           <label className="block text-gray-700 font-medium mb-2">Class</label>
           <input
@@ -79,6 +81,19 @@ export default function ResultChecker() {
           />
         </div>
 
+        {/* DOB */}
+        <div>
+          <label className="block text-gray-700 font-medium mb-2">Date of Birth</label>
+          <input
+            type="date"
+            required
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400"
+            value={formData.dob}
+            onChange={(e) => setFormData({ ...formData, dob: e.target.value })}
+          />
+        </div>
+
+        {/* Submit */}
         <button
           type="submit"
           disabled={loading}
@@ -98,6 +113,7 @@ export default function ResultChecker() {
         )}
       </form>
 
+      {/* Result Display */}
       {result && (
         <div className="mt-12 bg-white p-6 rounded-xl shadow-xl">
           <h2 className="text-2xl font-bold text-gray-800 mb-4">
