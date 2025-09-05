@@ -109,6 +109,18 @@ const FacultyCarousel = () => {
       position: "Computer Teacher",
       image: "/images/faculty/Atul_Chaudhary.jpg",
     },
+    {
+        id: 16,
+        name: "Prabhat Sharma",
+        position: "Computer, Math Teacher",
+        image: "/images/faculty/Prabhat Sharma.jpg",
+      },
+      {
+        id: 17,
+        name: "Aradhana Patel",
+        position: "Hindi, Sanskrit Teacher",
+        image: "/images/faculty/Aradhana Patel.jpg",
+      },
     // Add more faculty members as needed
   ];
 
