@@ -111,13 +111,13 @@ const FacultyGrid = () => {
       id: 16,
       name: "Prabhat Sharma",
       position: "Computer, Math Teacher",
-      image: "/images/faculty/Atul_Chaudhary.jpg",
+      image: "/images/faculty/Prabhat Sharma.jpg",
     },
      {
       id: 17,
       name: "Aradhana Patel",
       position: "Hindi, Sanskrit Teacher",
-      image: "/images/faculty/Atul_Chaudhary.jpg",
+      image: "/images/faculty/Aradhana Patel",
     },
   ];
 
