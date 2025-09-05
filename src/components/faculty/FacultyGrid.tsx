@@ -107,6 +107,18 @@ const FacultyGrid = () => {
       position: "Computer Teacher",
       image: "/images/faculty/Atul_Chaudhary.jpg",
     },
+     {
+      id: 16,
+      name: "Prabhat Sharma",
+      position: "Computer, Math Teacher",
+      image: "/images/faculty/Atul_Chaudhary.jpg",
+    },
+     {
+      id: 17,
+      name: "Aradhana Patel",
+      position: "Hindi, Sanskrit Teacher",
+      image: "/images/faculty/Atul_Chaudhary.jpg",
+    },
   ];
 
   // Filter faculty members based on search term
