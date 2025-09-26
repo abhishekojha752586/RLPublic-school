@@ -31,7 +31,7 @@ const SchoolHistory = () => {
         <div className="relative z-10">
           <h1 className="text-4xl md:text-5xl font-bold text-red-600 text-center mb-10">
             WELCOME TO<br />
-            SRI R.L. CHAUDHARY SCHOOL
+            SHRI R.L. CHAUDHARY SCHOOL
           </h1>
           
           <div className="space-y-6 mb-8">
