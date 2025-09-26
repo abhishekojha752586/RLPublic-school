@@ -49,7 +49,7 @@ const WelcomeNote = () => {
           {/* School Name - Mobile View (Top) */}
           <div className="md:hidden w-full mb-6">
             <h1 className="text-4xl font-bold text-red-500 text-center drop-shadow-[2px_2px_4px_rgba(255,0,0,0.3)]">
-              SRI R.L. CHAUDHARY SCHOOL
+              SHRI R.L. CHAUDHARY SCHOOL
             </h1>
           </div>
 
