@@ -79,15 +79,15 @@ const FacultyGrid = () => {
     },
     {
       id: 11,
-      name: "Rakesh Kumar",
-      position: "Computer Teacher",
-      image: "/images/faculty/Rakesh_Kumar.jpg",
+      name: "Manish Kanaujiya",
+      position: "Computer, English Teacher",
+      image: "/images/faculty/Manish.jpeg",
     },
     {
       id: 12,
-      name: "Ranjita Vishwakarma",
-      position: "Hindi, Sanskrit Teacher",
-      image: "/images/faculty/Ranjita_Vishwakarma.jpg",
+      name: "Nitish Kumar",
+      position: "Math, Art Teacher",
+      image: "/images/faculty/Nitish Kumar.jpeg",
     },
     {
       id: 13,
@@ -97,9 +97,9 @@ const FacultyGrid = () => {
     },
     {
       id: 14,
-      name: "Virendra Kumar",
-      position: "English, Social Science Teacher",
-      image: "/images/faculty/Virendra_Kumar.jpg",
+      name: "Mamata Vishwakarma",
+      position: "Hindi, GK Teacher",
+      image: "/images/faculty/Mamta.jpeg",
     },
     {
       id: 15,
